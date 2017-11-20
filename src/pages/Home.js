@@ -14,9 +14,12 @@ export default class Home extends Component {
     render() {
 
         return (
-            <Text>Home</Text>
+            <View style={ { width:400,height:800,alignItems:'center', justifyContent:'center' } }>
+                <Button title="go Detail" onPress={ ()=> {
+                    this.props.navigation.navigate('Detail')
+                }}></Button>
+                <Text>Home</Text>
+            </View>
         );
     }
-
-
 }
