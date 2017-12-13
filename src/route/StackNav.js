@@ -21,7 +21,7 @@ const RootNavigator = StackNavigator({
     },
 },{
     initialRouteName: 'Tab',
-    headerMode: 'none'
+    headerMode: 'float'
 });
 
 export default RootNavigator;

@@ -14,7 +14,7 @@ const router = {
     Home: {
         screen: Home ,
         navigationOptions: {
-            tabBarLabel: 'Home',
+            tabBarLabel: '美图',
             tabBarIcon: ({ tintColor, focused }) => (
                 <Ionicons
                     name={focused ? 'ios-woman' : 'ios-woman-outline'}
@@ -27,7 +27,7 @@ const router = {
     Top10: {
         screen: Top10,
         navigationOptions: {
-            tabBarLabel: 'Profile',
+            tabBarLabel: '推荐',
             tabBarIcon: ({ tintColor, focused }) => (
                 <Ionicons
                     name={focused ? 'ios-list-box' : 'ios-list-box-outline'}
@@ -40,7 +40,7 @@ const router = {
     UserComment: {
         screen: UserComment,
         navigationOptions: {
-            tabBarLabel: 'UserComment',
+            tabBarLabel: '反馈',
             tabBarIcon: ({ tintColor, focused }) => (
                 <Ionicons
                     name={focused ? 'ios-chatbubbles' : 'ios-chatbubbles-outline'}
